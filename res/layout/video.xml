@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D4F4FA"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/ath1"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="덤벨"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ath2"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="트레드밀"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ath3"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="버터플라이 머신"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" >
+    </VideoView>
+
+   
+
+</LinearLayout>

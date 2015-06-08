@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	android:id="@+id/sub02Layout"
+	>
+	<TextView
+		android:id="@+id/text01"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#ff00cc00"
+		android:text="버터플라이머신의 운동 횟수"
+		android:textColor="#ffffffff"
+		android:textSize="30dp" 
+		android:focusable="true"
+		/>
+
+</LinearLayout>
